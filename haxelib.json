@@ -1,0 +1,13 @@
+{
+    "name"         :  "jmf-npm-externs",
+    "url"          :  "https://github.com/jonasmalacofilho/jmf-npm-externs.hx",
+    "license"      :  "BSD",
+    "tags"         :  ["js", "nodejs", "npm"],
+    "description"  :  "NPM externs waiting to go to some upstream collection",
+    "version"      :  "0.0.1-alpha",
+    "classPath"    :  "lib",
+    "releasenote"  :  "Docopt",
+    "contributors" :  ["jonasmalacofilho", "elebeta"],
+    "dependencies" :  {}
+}
+
