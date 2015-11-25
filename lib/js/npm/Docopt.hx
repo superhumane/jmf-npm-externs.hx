@@ -51,6 +51,6 @@ extern class Docopt {
 		        '<port>': '/dev/ttyr01'
 		    }
 	**/
-	static function docopt(doc:String, args : { ?argv:Array<String>, ?help:Bool, ?version:String, ?options_first:Bool, ?exit:Bool }):haxe.DynamicAccess<Dynamic>;
+	static function docopt(doc:String, ?args : { ?argv:Array<String>, ?help:Bool, ?version:String, ?options_first:Bool, ?exit:Bool }):haxe.DynamicAccess<Dynamic>;
 }
 
