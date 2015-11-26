@@ -7,13 +7,13 @@ import haxe.extern.EitherType;
 **/
 typedef RemoveOptions = {
 	// Log all errors and print each path just before it's removed [default: false]
-	verbose:Bool,
+	?verbose:Bool,
 	// (async only) If true, remove the supplied paths sequentially, such that an unsuppressed error would short-circuit further deletes. [default: false]
-	sequential:Bool,
+	?sequential:Bool,
 	// If false, halt as soon as possible after an error occurs and invoke the callback. When operating in sequential mode, this implies an error removing the first of several paths would halt before touching the rest. If set, `ignoreErrors` overrides `ignoreMissing`. [default: false]
-	ignoreErrors:Bool,
+	?ignoreErrors:Bool,
 	// Whether to treat missing paths as errors. [default: false]
-	ignoreMissing:Bool
+	?ignoreMissing:Bool
 }
 
 /**
