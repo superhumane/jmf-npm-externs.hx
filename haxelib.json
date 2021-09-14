@@ -1,6 +1,6 @@
 {
     "name"         :  "jmf-npm-externs",
-    "url"          :  "https://github.com/jonasmalacofilho/jmf-npm-externs.hx",
+    "url"          :  "https://github.com/superhumane/jmf-npm-externs.hx",
     "license"      :  "BSD",
     "tags"         :  ["js", "nodejs", "npm"],
     "description"  :  "NPM externs waiting to go to some upstream collection",
